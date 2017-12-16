@@ -17,10 +17,10 @@ get_header(); ?>
                 </form>
                 <h3>Or, select a different insurance product:</h3>
               <!-- icons -->
-              <img class="icons" id="icon1" src="http://localhost/wordpress/wp-content/uploads/2017/12/auto.png" name="auto">
-              <img class="icons" id="icon2" src="http://localhost/wordpress/wp-content/uploads/2017/12/personal.png" name="personal">
-              <img class="icons" id="icon3" src="http://localhost/wordpress/wp-content/uploads/2017/12/business.png" name="business"> 
-              <img class="icons" id="icon4" src="http://localhost/wordpress/wp-content/uploads/2017/12/commercial_auto.png" name="commercial_auto">
+              <img class="icons" id="icon1" src="http://calicoinsurance.com/wp-content/themes/calicoinsurance/images/auto.png" name="auto">
+              <img class="icons" id="icon2" src="http://calicoinsurance.com/wp-content/themes/calicoinsurance/images/personal.png" name="personal">
+              <img class="icons" id="icon3" src="http://calicoinsurance.com/wp-content/themes/calicoinsurance/images/business.png" name="business"> 
+              <img class="icons" id="icon4" src="http://calicoinsurance.com/wp-content/themes/calicoinsurance/images/commercial_auto.png" name="commercial_auto">
             
             </div>
 	<div class="container">
