@@ -1,0 +1,433 @@
+/*
+ * Theme Name: CalicoInsurance
+ * Author: CalicoInsurance
+ * Author URI: http://www.calicoinsurance.com
+ * Version: 1.0
+ */
+
+
+
+a:link {
+	color: #003366;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #003366;
+	text-decoration: none;
+}
+
+.post a:link {
+	color: green;
+	text-decoration: none;
+}
+
+.post a:visited {
+	color: green;
+	text-decoration: none;
+}
+
+body {
+	
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: black;
+}
+
+
+
+
+p {
+	line-height: 1.65.em;
+	
+}
+
+/* General Layout */
+
+div.container {
+	max-width: 1220px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 3px;
+	
+}
+
+article.post {
+	border-bottom: 2px dotted #ddd;
+
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+/* Mobile View */
+
+@media screen and (max-width: 1000px) {
+	
+	.site-header nav {
+		
+		clear: both;
+		
+		display: none;
+		
+	}
+	
+	.site-header .logo {
+		clear: both;
+		display: block;
+		max-width: 100%;
+	}
+	
+}
+
+/* Header */
+
+
+.clear-fix {
+	clear: both;
+}
+
+.site-header {
+	
+	margin: 0;
+	padding: 0;
+	border-bottom: 2px solid #999;
+	
+}
+
+/* Top Menu Nav */
+
+
+
+
+
+.top-menu-container {
+	
+	width: 100%;
+	bottom: 0px;
+	background-color: #1e56a7;
+	margin: 0;
+	height: 80px;
+
+	
+	
+	
+}
+
+
+.top-right {
+	float:right;
+	width: 50%;
+	
+}
+
+
+
+
+.top-left{
+	width: 50%;
+	float: left;
+}
+
+.top-menu-container h1 a:link, 
+.top-menu-container h1 a:visited {
+		
+	
+	padding: 10px 5px 0px 20px;
+	margin-right: 10px;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	clear: right;
+
+}
+
+.top-menu-container h5 {
+	padding: 5px 0px 0px 25px;
+	margin: 0;
+	float: left;
+	color: white;
+	text-align: center;
+	clear: left;
+}
+
+.top-nav {
+	
+	float: right;
+	
+	
+	
+}
+
+.top-nav ul {
+		
+	border: none;
+	padding: 60px 0px 0px 0px;
+	background-color: #1e56a7;
+	text-decoration: none;
+	
+	float: right;
+	margin: 0;
+	list-style: none;
+	
+	
+}
+
+.top-nav ul li {
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 0px;
+	color: white;
+	list-style: none;
+	
+	
+	
+}
+
+.top-nav ul li a:link,
+.top-nav ul li a:visited {
+	display: inline-block;
+	
+	margin: 0;
+	border: none;
+	color: white;
+	text-decoration: none;	
+		
+}
+
+.top-nav ul li a:hover {
+
+	text-decoration: underline;	
+		
+}
+
+/* Logo */
+.logo {
+	vertical-align: bottom;
+	display: inline;
+	padding: 0;
+	margin: 0;
+	
+	max-width: 150px;
+	float: left;
+}
+
+
+
+
+/* Navigation Menus */
+
+
+
+
+.site-nav {
+	display:inline;
+	
+	vertical-align: top;
+}
+
+.site-nav ul {
+
+	margin: 0;
+	padding: 0;
+	color: white;
+	
+}
+
+.site-nav ul:before, .site-nav ul:after { content: ""; display: table; }
+.site-nav ul:after { clear:both; }
+.site-nav ul { *zoom:1; }
+
+.site-nav ul li {
+	list-style: none;
+	float: right;
+	
+}
+
+
+
+/* Site Header Menu */
+
+.site-header{
+	margin-top: 15px;
+}
+
+.site-header nav ul li {
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-right: 5px;
+	
+	
+
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+	display: block;
+	padding: 10px 18px;
+	border: 1px solid #BBB;
+
+	text-decoration: none;	
+	color: white;
+	background-color: #1e56a7;	
+}
+
+.site-header nav ul li a:hover {
+	background-color: #0099ff;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited {
+	background-color: #0099ff;
+	color: #FFF;
+}
+
+/* Footer */
+.site-footer {
+		border-top: 2px solid #999;
+		margin-top: 30px;
+		
+}
+
+/* Footer Menu */
+.site-footer nav ul li {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px dotted #BBB;
+}
+
+/* Page Layout */
+article.page h2 {
+	font-size: 300%;
+}
+
+/* main image */
+.newimg {
+	margin: 30px 0px 0px 60px;
+	padding: 20px;
+	display: inline-block;
+	float: left;
+	width: 38%;
+	height: 300px;
+}
+
+/* main icon image */
+
+.icon{
+	display: block;
+	padding: 25px 25px 25px 25px;
+	width: 45px;
+	height: 45px;
+	margin: 10px auto;
+	opacity: .95;
+	border: 1px solid #1e56a7;
+	border-radius: 40px;
+
+}
+
+.icons{
+	clear: both;
+	display: inline-block;
+	padding: 15px 15px 15px 15px;
+	width: 25px;
+	height: 25px;
+	margin: 10px 10px 10px 45px;
+	opacity: .95;
+	border: 1px solid gray;
+	border-radius: 20px;
+
+}
+
+
+
+.icons:hover {
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+}
+
+
+/* Main Quote From */
+.form-div {
+	margin: 30px 0px 0px 30px;
+	padding: 20px;
+	display: inline-block;
+	width: 40%;
+	height: 300px;
+	background-color: #FFF;
+}
+
+.quoteForm {
+	
+	width: 500px;
+	margin: 10px auto;
+	padding: 0px 0px 0px 60px;
+	
+}
+
+.quoteForm input[type=text]{
+	display: inline-block;
+	width: 180px;
+	float: left;
+	padding: 10px 0px 10px 0px;
+	font-size: 150%;
+	margin-top: 16px;
+	margin-right: 15px;
+	
+}
+
+.quoteForm input[type=submit]{
+	display: inline-block;;
+
+	border-radius: 5px;
+	background-color: #0099ff;
+	color: white;
+	border-color: #0099ff;
+	padding: 10px 20px 10px 20px;
+	font-size: 150%;
+	opacity: .95;
+	
+}
+
+.quoteForm input[type=submit]:hover {
+	font-size: 160%;
+	opacity: 1;
+	cursor: pointer;
+	
+
+}
+
+.form-div h1 {
+	
+	
+	background-color: #1e56a7;
+	opacity: .7;
+	text-align: center;
+	width: 400px;
+	padding: 20px 0px 20px 0px;
+	margin: 0px auto;
+	color: white;
+	border-radius: 5px;
+}
+
+.form-div h3 {
+	
+	text-align: center;
+	width: 320px;
+	padding: 20px 0px 20px 0px;
+	margin: 0px auto;
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
